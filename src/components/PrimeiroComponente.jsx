@@ -1,7 +1,12 @@
 import React from 'react'
 
-function primeiro() {
+export default function () {
     return <h1>Primeiro Componente React!</h1>
 }
 
-export default primeiro
+
+// function primeiro() {
+//     return <h1>Primeiro Componente React!</h1>
+// }
+
+// export default primeiro
