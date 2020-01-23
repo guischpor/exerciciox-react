@@ -5,10 +5,12 @@ import ReactDOM from 'react-dom';
 //import CalcSoma from './components/CalcSoma'
 //import MultiElementos from './components/MultiElementos'
 //import FamiliaPortela from './components/FamiliaPortela'
-import Familia from './components/Familia'
-import Membro from './components/Membro'
-import Alunos from './components/Alunos'
-import Turma from './components/Turma'
+// import Familia from './components/Familia'
+// import Membro from './components/Membro'
+// import Alunos from './components/Alunos'
+// import Turma from './components/Turma'
+//import ComponenteComFuncao from './components/ComponenteComFuncao'
+import Pai from './components/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
@@ -33,6 +35,10 @@ ReactDOM.render(
             <Alunos nome='Maria' />
             <Alunos nome='Gessica' />
           </Turma>  */}
+
+          {/* <ComponenteComFuncao /> */}
+
+          <Pai />
 
                 
        </div>
