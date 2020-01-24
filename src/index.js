@@ -10,7 +10,9 @@ import ReactDOM from 'react-dom';
 // import Alunos from './components/Alunos'
 // import Turma from './components/Turma'
 //import ComponenteComFuncao from './components/ComponenteComFuncao'
-import Pai from './components/Pai'
+//import Pai from './components/Pai'
+//import ComponenteClasse from './components/ComponenteClasse'
+import Contador from './components/Contador'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
@@ -38,7 +40,17 @@ ReactDOM.render(
 
           {/* <ComponenteComFuncao /> */}
 
-          <Pai />
+          {/* <Pai /> */}
+
+          {/* <ComponenteClasse valor='Olá Paraná!'/> */}
+
+           {/*Solução 01*/} 
+          <Contador numeroInicial={0}/>
+
+          {/*Solução 02*/} 
+          {/* <Contador /> */}
+
+
 
                 
        </div>
