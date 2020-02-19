@@ -51,7 +51,9 @@ ReactDOM.render(
           {/*Solução 02*/} 
           {/* <Contador /> */}
 
-          <Hook />
+          {/*<Hook /> */}
+
+          
 
 
 
